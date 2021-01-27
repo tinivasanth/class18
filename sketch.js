@@ -13,6 +13,7 @@ function setup(){
     box1 = new Box(200,300,50,50);
     box2 = new Box(240,100,50,100);
     ground = new Ground(200,height,400,20)
+    box3 = new Box(240,100,50,100);
 }
 
 function draw(){
@@ -24,4 +25,5 @@ function draw(){
     box1.display();
     box2.display();
     ground.display();
+    box3.display();
 }
